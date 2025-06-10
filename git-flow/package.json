@@ -1,6 +1,7 @@
 {
   "name": "git-flow",
   "version": "0.1.0",
+    "homepage": "https://ImanolCE.github.io/prueba-git-flow/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

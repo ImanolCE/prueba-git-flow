@@ -32,7 +32,7 @@ jobs:
           path: ./build
       - uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.git-glow}}
+          github_token: ${{ secrets.git-flow}}
           publish_dir: ./build
 
           

@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Landing Page con CI/CD en GitHub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto que relizado es una landing page que se desarrollo en con ReactJS y que es desplegado automáticamente en GitHub Pages utilizando un flujo de trabajo automatizado con GitHub Actions (CI/CD).
 
-## Available Scripts
+##  Tecnologías utilizadas
 
-In the project directory, you can run:
+- ReactJS
+- Git y GitHub
+- GitHub Actions (CI/CD)
+- GitHub Pages
 
-### `npm start`
+## Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Antes de clonar este repositorio asegúrate de tener instalado:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js v18+
+- npm
+- Git
 
-### `npm test`
+## Instalación y ejecución local
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Primero clona el repositorio y despues entrar a la carpeta qeu se creo:
 
-### `npm run build`
+git clone https://github.com/ImanolCE/prueba-git-flow.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd prueba-git-flow
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Para instalar dependencias 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
 
-### `npm run eject`
+## Despliegue del (CI/CD)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+El proyecto relizado utiliza un workflow de GitHub Actions que se activa automáticamente cuando se hace push a la rama main. El archivo de configuración se encuentra en: .github/workflows/main.yml
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+El workflow realiza las siguientes acciones:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Instala dependencias
+- Ejecuta pruebas
+- Construye la app
+- Publica el contenido del directorio build/ en la rama gh-pages usando la acción peaceiris/actions-gh-pages.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Enlaces importantes
 
-## Learn More
+- Repositorio en GitHub: https://github.com/ImanolCE/prueba-git-flow
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Página desplegada: https://imanolce.github.io/prueba-git-flow/

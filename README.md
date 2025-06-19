@@ -1,6 +1,6 @@
 # Landing Page con CI/CD en GitHub
 
-Este proyecto que relizado es una landing page que se desarrollo en con ReactJS y que es desplegado automáticamente en GitHub Pages utilizando un flujo de trabajo automatizado con GitHub Actions (CI/CD).
+Este proyecto que se relizo, es una landing page que se desarrollo en con ReactJS y que es desplegado automáticamente en GitHub Pages utilizando un flujo de trabajo automatizado con GitHub Actions (CI/CD).
 
 ##  Tecnologías utilizadas
 
@@ -19,7 +19,7 @@ Antes de clonar este repositorio asegúrate de tener instalado:
 
 ## Instalación y ejecución local
 
-1. Primero clona el repositorio y despues entrar a la carpeta qeu se creo:
+1. Primero clona el repositorio y despues entra a la carpeta que se creo:
 
 git clone https://github.com/ImanolCE/prueba-git-flow.git
 
